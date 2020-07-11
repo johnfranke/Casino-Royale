@@ -1,6 +1,7 @@
 ## Casino Royale
 
 Link to deployed application: http://react-casino-royale.herokuapp.com/
+Original project repo: https://github.com/kpresta04/casino-royale
 
 ### Why?
 
