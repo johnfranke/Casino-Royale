@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Nixie+One");
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+
+.body {
+	background-color: #000000;
+}
+
+.title {
+	padding: 10px;
+}
+.playerCards,
+.dealerCards {
+	grid-column: 2/4;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 100%;
+	margin: 1em auto;
+}
+
+.playingCard {
+	margin: .2em;
+	height: 150px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px black;
+}
+
+.scoreBox {
+	grid-column: 1;
+	grid-row: 2;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	h2 {
+		width: 100%;
+		font-weight: bold;
+
+		text-align: right;
+	}
+}
+
+.doubleDownBox {
+	grid-column: 4;
+	grid-row: 2;
+
+	display: flex;
+	align-items: top;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	h2 {
+		width: 100%;
+		font-weight: bold;
+		text-align: left;
+	}
+
+	.doubleDownButtons {
+		float: left;
+	}
+}
+.scoreBox:nth-of-type(2) {
+	grid-row: 1;
+	grid-column: 1;
+	vertical-align: bottom;
+}
+
+.entirebg {
+	background: radial-gradient(#34b445, #000000);
+}
+
+.blackJackBoard {
+	font-family: "Teko", sans-serif;
+	font-size: 2em;
+	color: white;
+	height: auto;
+	margin: 0 0 100px 0;
+	background: radial-gradient(#34b445, #000000);
+	background-repeat: repeat-y;
+	background-color: #000000;
+	box-shadow: 5px 1px 10px #000000;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+
+}
+.playerButtons {
+	grid-column: 2/4;
+	grid-row: 3;
+	margin: 2em auto;
+	display: flex;
+	justify-content: top;
+	align-items: top;
+	grid-auto-rows: 10vmax;
+}
+
+#announce-text {
+	text-align: center;
+	margin: 0 auto;
+	grid-column: 2/4;
+	grid-row: 3;
+}
+button:hover {
+	cursor: pointer !important;
+}
+
+@media (max-width: 910px) {
+	.titleimg {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 620px) {
+	.playingCard {
+		width: 50px;
+		height: 75px;
+		margin: 0.2em;
+	}
+	.playerButtons {
+		grid-column: 1/5;
+	}
+
+	.doubleDownBox {
+		align-items: unset;
+
+		h2 {
+			align-self: flex-end;
+			text-align: center;
+		}
+	}
+	.makeStyles-paper-121 {
+		width: 80vw !important;
+		left: 43% !important;
+	}
+	.playerCards,
+	.dealerCards {
+		margin: 2em auto;
+	}
+}
