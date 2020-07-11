@@ -14,7 +14,7 @@ Original project repo: https://github.com/kpresta04/casino-royale
 
 ### Why?
 
-During this pandemic the world is changing and so is the way people are looking for amusement. Before the pandemic Las Vegas was booming. Then Las Vegas shut down - just like that. According to the Wall Street Journal the Las Vegas Sands Corporation's casino operator reported a 51% drop in revenue. We wanted to create an app to not only give people something amusing but also recoup some of that revenue that vanished with the shut down.
+During the pandemic the world is changing and so is the way people are looking for amusement. Before the pandemic Las Vegas was booming. Then Las Vegas shut down - just like that. According to the Wall Street Journal the Las Vegas Sands Corporation's casino operator reported a 51% drop in revenue. We wanted to create an app to not only give people something amusing but also recoup some of that revenue that vanished with the shut down.
 
 ### User Story
 
